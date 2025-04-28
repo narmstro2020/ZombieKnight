@@ -107,7 +107,7 @@ class Zombie(pygame.sprite.Sprite):
         #TODO: create a self.velocity variable and assign pygame.math.Vector2() to it passing in self.direction * random.randint(min_speed, max_speed), 0
         #TODO: create a self.acceleration variable and assign pygame.math.Vector2() to it passing in 0, self.VERTICAL_ACCELERATION.
 
-        # Intial zombie values
+        # Initial zombie values
         #TODO: create a self.is_dead variable and assign False to it.
         #TODO: create a self.round_time variable and assign 0 to it.
         #TODO: create a self.frame_count variable and assign 0 to it.
