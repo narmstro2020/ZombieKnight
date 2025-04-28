@@ -91,9 +91,9 @@ class Player(pygame.sprite.Sprite):
         #TODO: create a self.acceleration variable and assign pygame.math.Vector2() to it passing in 0, self.VERTICAL_ACCELERATION.
 
         #Set initial player values
-        #TODO: create a self.health variable passing in self.STARTING_HEALTH
-        #TODO: create a self.starting_x variable passing in x
-        #TODO: create a self.starting_y variable passing in y
+        #TODO: create a self.health variable and assign self.STARTING_HEALTH to it
+        #TODO: create a self.starting_x variable and assign x to it
+        #TODO: create a self.starting_y variable and assign y to it
 
     def update(self):
         """Update the player"""
