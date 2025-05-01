@@ -120,16 +120,16 @@ class Game:
             for col in range(len(self.tile_map[row])):
                 # Dirt tiles
                 if self.tile_map[row][col] == 1:
-                    # TODO: call the Tile() constructor passing col * 32, row * 32, 1, self.main_title_group
+                    # TODO: call the Tile() constructor passing col * 32, row * 32, 1, self.main_tile_group
                 # Platform tiles
                 elif self.tile_map[row][col] == 2:
-                    # TODO: call the Tile() constructor passing col * 32, row * 32, 2, self.main_title_group, self.platform_group
+                    # TODO: call the Tile() constructor passing col * 32, row * 32, 2, self.main_tile_group, self.platform_group
                 elif self.tile_map[row][col] == 3:
-                    # TODO: call the Tile() constructor passing col * 32, row * 32, 3, self.main_title_group, self.platform_group
+                    # TODO: call the Tile() constructor passing col * 32, row * 32, 3, self.main_tile_group, self.platform_group
                 elif self.tile_map[row][col] == 4:
-                    # TODO: call the Tile() constructor passing col * 32, row * 32, 4, self.main_title_group, self.platform_group
+                    # TODO: call the Tile() constructor passing col * 32, row * 32, 4, self.main_tile_group, self.platform_group
                 elif self.tile_map[row][col] == 5:
-                    # TODO: call the Tile() constructor passing col * 32, row * 32, 5, self.main_title_group, self.platform_group
+                    # TODO: call the Tile() constructor passing col * 32, row * 32, 5, self.main_tile_group, self.platform_group
                 # Ruby Maker
                 elif self.tile_map[row][col] == 6:
                     # TODO: call the RubyMaker() constructor passing in col * 32, row * 32, self.main_tile_group

@@ -138,7 +138,6 @@ class Zombie(pygame.sprite.Sprite):
         # else if self.position.x is greater than self.WINDOW_WIDTH then assign 0 to self.position.x
         #TODO: (5): assign self.position to self.rect.bottomleft
 
-
     def check_collisions(self):
         """Check for collisions with platforms and portals"""
         # Collision check between zombie and platforms when falling
@@ -175,8 +174,6 @@ class Zombie(pygame.sprite.Sprite):
         #TODO: if self.animate_rise then do the following
         #TODO: (1): if self.direction is 1 then call self.animate() passing in self.rise_right_sprites, and 0.095,
         # else call self.animate() passing in self.rise_left_sprites, and 0.095.
-
-
 
     def animate(self, sprite_list, speed):
         """Animate the zombie's actions"""
