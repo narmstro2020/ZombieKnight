@@ -39,7 +39,8 @@ class Game:
         # TODO: assign 0 to self.score
         # TODO: assign 1 to self.round_number
         # TODO: assign 0 to self.frame_count
-        # TODO: assign self.STARTING_ZOMBIE_CREATION_TIME to self.zombie_create_time
+        # TODO: assign self.STARTING_ROUND_TIME to self.round_time
+        # TODO: assign self.STARTING_ZOMBIE_CREATION_TIME to self.zombie_creation_time
 
         # TODO: assign pygame.font.Font() to self.title_font.  The arguments for Font() are the font file location which is here
         # "./assets/fonts/Poultrygeist.ttf" and the size which is 48
@@ -215,7 +216,7 @@ class Game:
         # TODO: call self.check_collisions()
         # TODO: call self.add_zombie()
         # TODO: call self.check_round_completion()
-        # TODO: call self.game_over()
+        # TODO: call self.check_game_over()
 
     def draw(self):
         """Draw the game HUD"""
