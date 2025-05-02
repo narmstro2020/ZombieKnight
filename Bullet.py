@@ -20,7 +20,9 @@ class Bullet(pygame.sprite.Sprite):
         else:
             # almost the same as in the if part.
             self.image = pygame.transform.scale(pygame.transform.flip(pygame.image.load("./assets/images/player/slash.png"), True, False), (32, 32))
+            self.VELOCITY = -1 * self.VELOCITY
             pass  # TODO: remove this when done.
+
 
         # TODO:  assign to self.rect the following  self.image.get_rect()
         # TODO: assign to self.rect.center the tuple x, y
