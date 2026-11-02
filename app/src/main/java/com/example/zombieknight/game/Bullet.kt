@@ -12,7 +12,7 @@ class Bullet(
     var alive = true
 
     init {
-        showTexture("")
+        showTexture(Assets.image("player/slash.png"))
         flipH = facingLeft
         setTopLeft(center - Vec2(16f, 16f))
         startingX = rect.pos.x
