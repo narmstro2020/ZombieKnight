@@ -7,6 +7,8 @@ class Rect(var pos: Vec2, var size: Vec2) {
     val top get() = pos.y
     val bottom get() = pos.y + size.y
 
+    val center get() = Vec2(pos.x + size.x / 2, pos.y + size.y / 2)
+
     fun intersects(other: Rect): Boolean {
         val check1 = left < other.right
         val check2 = right > other.left
